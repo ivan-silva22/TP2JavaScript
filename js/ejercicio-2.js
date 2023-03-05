@@ -1,15 +1,19 @@
 let nota = parseInt(prompt("Ingrese la nota"));
 
 if(nota <= 2){
-    document.write("Muy deficiente");
+    alert("Muy deficiente");
 }else if(nota >= 3 && nota <= 4){
-    document.write("Insuficiente");
+    alert("Insuficiente");
 }else if(nota >= 5 && nota <= 6){
-    document.write("Suficiente");
+    alert("Suficiente");
 }else if(nota === 7){
-    document.write("Bien");
+    alert("Bien");
 }else if(nota >= 8 && nota <= 9){
-    document.write("Notable");
+    alert("Notable");
 }else if(nota === 10){
-    document.write("Sobresaliente");
+    alert("Sobresaliente");
+}else if(nota != nota){
+    alert("Introduce un número válido");
+}else{
+    alert("Número erróneo");
 }
